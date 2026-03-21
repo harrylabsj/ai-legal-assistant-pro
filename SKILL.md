@@ -178,8 +178,10 @@ Free Starter 免费版**不包含**：
 ## References 索引
 
 - `references/risk-patterns.md` —— 常见合同风险类别与检查清单
+- `references/risk-scan-examples.md` —— 首批合同风险扫描样例
 - `references/calculation-formulas.md` —— 诉讼费与劳动补偿的基础估算规则
 - `references/document-skeletons.md` —— 起诉状 / 答辩状 / 证据提纲骨架
+- `references/test-cases.md` —— 当前 MVP 的首批测试样例
 - `references/clawhub-listing-copy.md` —— Free Starter 公开版的 ClawHub 上架文案
 
 ## 资源

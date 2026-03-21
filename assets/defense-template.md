@@ -1,11 +1,11 @@
-# Defense Template
+# 民事答辩状模板
 
-- Case:
-- Defendant:
-- Main defense points:
-- Facts admitted:
-- Facts disputed:
-- Evidence list:
-- Date:
+- 案件信息：
+- 答辩人信息：
+- 核心答辩观点：
+- 已承认事实：
+- 有争议事实：
+- 证据目录：
+- 日期：
 
-> First-pass template only. Review before filing.
+> 本模板仅供第一轮整理使用，正式提交前请结合案件事实进一步审核。
