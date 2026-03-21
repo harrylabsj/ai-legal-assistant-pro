@@ -1,0 +1,16 @@
+{
+  "id": "ai-legal-assistant-pro",
+  "name": "AI 法律助手专业版",
+  "version": "1.0.0",
+  "author": "jianghaidong",
+  "description": "面向中国用户的法律辅助 skill，用于合同风险扫描、诉讼成本估算和结构化法律文书骨架生成。",
+  "status": "stable",
+  "tags": [
+    "legal",
+    "contract",
+    "lawsuit",
+    "labor",
+    "china"
+  ],
+  "workspace": "ai-legal-assistant-pro"
+}
