@@ -191,6 +191,7 @@ Free Starter 免费版**不包含**：
 - `references/test-cases.md` —— 当前 MVP 的首批测试样例
 - `references/output-acceptance-criteria.md` —— 首批测试样例的输出验收标准
 - `references/test-run-round1.md` —— 首轮样例验收记录与改进优先级
+- `references/test-run-round2.md` —— 第二轮重点复评记录
 - `references/clawhub-listing-copy.md` —— Free Starter 公开版的 ClawHub 上架文案
 
 ## 资源
