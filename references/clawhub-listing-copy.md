@@ -1,75 +1,75 @@
-# ClawHub Listing Copy
+# ClawHub 上架文案
 
-Use this copy for the public listing of the **Free Starter** version.
+本文件用于 **Free Starter 免费体验版** 的公开上架文案。
 
-## Title
+## 标题
 
-AI Legal Assistant Pro (Free Starter)
+AI 法律助手专业版（Free Starter）
 
-## Subtitle
+## 副标题
 
-Scan contract risks, estimate lawsuit costs, and generate legal drafting skeletons before paying for expensive legal help.
+先扫描合同风险、预估诉讼成本、生成法律文书骨架，再决定要不要花大钱找律师。
 
-## Short Description
+## 简短描述
 
-A free starter skill for first-pass legal assistance in common China-focused civil and labor scenarios. Use it to scan basic contract risks, estimate filing costs, and generate structured complaint or defense skeletons. Need deeper clause rewriting, richer templates, or a business-use version? Contact the author for Pro / Business access.
+这是一个面向中国常见民事与劳动场景的法律辅助免费体验版 skill。可用于基础合同风险初筛、基础诉讼费估算，以及起诉状 / 答辩状等结构化文书骨架生成。若你需要更深入的条款改写、更完整的模板库，或企业使用版本，可联系作者升级 Pro / Business 版本。
 
-## Full Description
+## 详细描述
 
-AI Legal Assistant Pro (Free Starter) is designed for practical first-pass legal work.
+AI 法律助手专业版（Free Starter）面向实用型第一轮法律辅助场景。
 
-It helps users:
-- identify common contract risks before signing,
-- estimate basic PRC civil filing costs,
-- generate structured legal drafting skeletons for complaint, defense, and evidence preparation.
+它可以帮助用户：
+- 在签约前先识别常见合同风险；
+- 在起诉前先估算基础诉讼费；
+- 在整理案件时先生成起诉状、答辩状、证据提纲等结构化骨架。
 
-This free starter version is suitable for:
-- trial use,
-- simple personal matters,
-- first-pass screening before formal legal consultation.
+这个免费体验版适合：
+- 先试用；
+- 处理较简单的个人问题；
+- 在正式咨询律师前先做第一轮筛查。
 
-It is built for users who want to:
-- see obvious risks earlier,
-- understand likely cost ranges,
-- turn messy facts into usable legal structure.
+它适合那些希望：
+- 更早发现明显风险；
+- 先知道大致成本范围；
+- 把零散事实整理成可用结构的人。
 
-This version does **not** replace a licensed lawyer's formal advice. Complex, urgent, high-value, or fact-sensitive matters should still be reviewed by a qualified lawyer.
+本版本**不替代**执业律师的正式法律意见。对于复杂、紧急、高标的额、事实敏感的事项，仍应由专业律师结合完整事实进一步审核。
 
-If you need:
-- deeper clause rewriting,
-- richer template packs,
-- business-use versions,
-- custom delivery,
-- or private/enterprise support,
+如果你需要：
+- 更深入的条款改写；
+- 更完整的模板包；
+- 企业使用版本；
+- 定制交付；
+- 私有化 / 企业支持；
 
-please contact the author for the **Pro / Business** version outside the platform.
+可在平台外联系作者升级到 **Pro / Business** 版本。
 
-## Key Features
+## 核心卖点
 
-### 1. First-pass contract risk scan
-Spot common risky clauses before signing.
+### 1. 合同风险初筛
+在签字前先发现常见风险条款。
 
-### 2. Basic filing-cost estimation
-Estimate common PRC civil filing fees before deciding whether to proceed.
+### 2. 基础诉讼费估算
+先看常见中国民事案件诉讼费大概是多少，再决定是否继续。
 
-### 3. Structured legal drafting skeletons
-Generate usable complaint, defense, and evidence-outline drafts.
+### 3. 结构化法律文书骨架
+快速生成可修改的起诉状、答辩状、证据提纲骨架。
 
-### 4. Action-oriented output
-Get clear next-step structure instead of vague legal talk.
+### 4. 输出可执行
+不是泛泛而谈，而是更清晰的下一步结构。
 
-### 5. Upgrade path available
-Need deeper rewriting, richer templates, or business use? Upgrade outside the platform.
+### 5. 可升级到专业版
+如果需要更深入的条款改写、更完整模板库或企业版，可在平台外升级。
 
-## Disclaimer
+## 免责声明
 
-This skill provides preliminary structured assistance only. It does not replace a licensed lawyer's formal advice. Important matters should be reviewed by a qualified lawyer with the full facts and current local rules.
+本 skill 仅提供初步结构化辅助，不替代执业律师的正式法律意见。重要事项应由具备执业资格的律师结合完整事实和最新当地规则进一步审核。
 
-## Upgrade CTA
+## 升级引导
 
-Try the Free Starter first. For Pro / Business access, contact the author.
+先试用 Free Starter 免费体验版。若需要 Pro / Business 版本，请联系作者。
 
-## Optional Chinese Promo Copy
+## 备用宣传短句
 
 ### 中文一句话
 先帮你看风险、算成本、出框架，再决定要不要花大钱找律师。

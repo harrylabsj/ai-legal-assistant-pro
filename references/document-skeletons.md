@@ -1,94 +1,94 @@
-# Document Skeletons
+# 文书骨架
 
-Use these skeletons to produce structured first drafts. Do not pretend missing facts are known.
+本文件用于生成第一轮结构化文书草稿。不要假装那些尚未提供的事实已经确定。
 
-## 1. Civil Complaint Skeleton
+## 1. 民事起诉状骨架
 
-### Output structure
-1. Court
-2. Plaintiff information
-3. Defendant information
-4. Claims
-5. Facts and reasons
-6. Evidence list
-7. Closing
+### 输出结构
+1. 受理法院
+2. 原告信息
+3. 被告信息
+4. 诉讼请求
+5. 事实与理由
+6. 证据清单
+7. 结尾落款
 
-### Draft template
-**To:** [People's Court]
+### 草稿模板
+**致：** [人民法院]
 
-**Plaintiff:** [name / gender / DOB / address / contact]
+**原告：** [姓名 / 性别 / 出生年月 / 地址 / 联系方式]
 
-**Defendant:** [name / entity / address / contact]
+**被告：** [姓名 / 单位 / 地址 / 联系方式]
 
-## Claims
-1. [Claim 1]
-2. [Claim 2]
-3. [Costs allocation request if needed]
+## 诉讼请求
+1. [请求一]
+2. [请求二]
+3. [如需，补充诉讼费用承担请求]
 
-## Facts and Reasons
-- Relationship between parties
-- Key facts in timeline order
-- Breach / dispute point
-- Damage or loss
-- Legal basis direction (high-level)
+## 事实与理由
+- 双方关系
+- 关键事实（按时间顺序）
+- 违约 / 争议点
+- 损失结果
+- 法律依据方向（高层级）
 
-## Evidence List
-1. [Contract / agreement]
-2. [Payment records]
-3. [Chat logs / notices]
-4. [Other supporting documents]
+## 证据清单
+1. [合同 / 协议]
+2. [付款记录]
+3. [聊天记录 / 通知]
+4. [其他 supporting documents]
 
-**Submitted by:** [Plaintiff]
+**具状人：** [原告]
 
-**Date:** [date]
+**日期：** [日期]
 
-## 2. Defense Skeleton
+## 2. 答辩状骨架
 
-### Output structure
-1. Case identification
-2. Main defense points
-3. Fact disputes
-4. Legal / procedural objections
-5. Evidence list
+### 输出结构
+1. 案件识别信息
+2. 主要答辩观点
+3. 事实争议点
+4. 法律 / 程序抗辩点
+5. 证据清单
 
-### Draft template
-## Defense Statement
+### 草稿模板
+## 答辩状
 
-**Defendant:** [name]
+**答辩人：** [姓名]
 
-Regarding the case filed by [plaintiff], the defendant responds as follows:
+就 [原告] 提起的案件，答辩如下：
 
-### Main Defense Points
-1. [Defense point 1]
-2. [Defense point 2]
-3. [Defense point 3]
+### 主要答辩观点
+1. [观点一]
+2. [观点二]
+3. [观点三]
 
-### Facts and Reasons
-- Facts admitted
-- Facts disputed
-- Why the plaintiff's claim should be reduced / rejected / clarified
+### 事实与理由
+- 承认的事实
+- 有争议的事实
+- 原告诉请应减少 / 驳回 / 进一步澄清的原因
 
-### Evidence
-1. [Evidence item]
-2. [Evidence item]
+### 证据
+1. [证据项]
+2. [证据项]
 
-## 3. Evidence Outline Skeleton
+## 3. 证据提纲骨架
 
-### Output structure
-| No. | Evidence | Purpose | Source | Weakness / notes |
+### 输出结构
+| 序号 | 证据 | 证明目的 | 来源 | 弱点 / 备注 |
 |---|---|---|---|---|
-| 1 | Contract | Prove relationship | Original signed copy | Check signature page |
+| 1 | 合同 | 证明双方关系 | 已签原件 | 需核对签字页 |
 
-## Missing Facts Checklist
+## 缺失事实检查清单
 
-When drafting, explicitly ask for missing items such as:
-- full party identity information
-- dates and timeline
-- amount in dispute
-- court / jurisdiction clue
-- documentary evidence already available
-- whether prior demand / notice was sent
+起草时要主动追问这些常见缺失项：
+- 当事人的完整身份信息
+- 关键日期与时间线
+- 争议金额
+- 法院 / 管辖线索
+- 当前已掌握的书面证据
+- 是否发过催告、通知、律师函等
 
-## Reminder
+## 提醒
 
-These are drafting skeletons for first-pass preparation, not filing-ready documents without review.
+这些只是第一轮准备骨架，不是无需复核即可直接提交的正式文书。

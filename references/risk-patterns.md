@@ -1,89 +1,89 @@
-# Contract Risk Patterns
+# 合同风险规则库
 
-Use this file for first-pass contract review. Focus on issues that users can understand and act on quickly.
+本文件用于合同的第一轮风险审查。重点关注用户能快速理解、快速采取动作的常见风险点。
 
-## Review Method
+## 审查方法
 
-For each clause, check:
-1. Is the obligation one-sided?
-2. Is the wording vague or open-ended?
-3. Is the liability too broad or uncapped?
-4. Is termination unfair or hard to trigger?
-5. Is payment timing or acceptance unclear?
-6. Is dispute resolution heavily biased?
+对每一条款，优先检查：
+1. 义务是否明显单方化；
+2. 表述是否模糊、开放、可被任意解释；
+3. 责任是否过宽、无上限；
+4. 解约条件是否不公平或难以触发；
+5. 付款与验收安排是否不清晰；
+6. 争议解决是否明显偏向一方。
 
-## Severity Guide
+## 风险级别
 
-- **High**: can cause major payment, liability, control, or enforcement harm
-- **Medium**: may create negotiation or execution risk
-- **Low**: drafting weakness or completeness issue
+- **高**：可能直接导致重大付款、责任、控制权或执行风险
+- **中**：可能造成履约、谈判、举证或解释风险
+- **低**：更多是完整性或表述质量问题
 
-## High-Frequency Risk Categories
+## 高频风险类别
 
-### 1. Payment and acceptance
-Watch for:
-- acceptance standards missing or vague
-- payment tied to the other side's sole discretion
-- long payment cycles without protection
-- no late-payment liability
-- invoice language used to delay payment unfairly
+### 1. 付款与验收
+重点看：
+- 验收标准缺失或表述过于模糊
+- 付款是否完全取决于对方单方判断
+- 付款周期是否过长且缺少保护条款
+- 是否缺少逾期付款责任
+- 是否通过发票条款不当延迟付款
 
-Suggested direction:
-- define acceptance criteria, time limits, and deemed acceptance
-- define exact payment dates and late-payment consequences
+建议方向：
+- 明确验收标准、验收时限、视为验收机制
+- 明确付款日期、付款条件及逾期责任
 
-### 2. Liability and indemnity
-Watch for:
-- unlimited liability for one side only
-- indemnity obligations that are too broad
-- no cap on damages
-- liquidated damages obviously one-sided
+### 2. 违约责任与赔偿
+重点看：
+- 是否一方承担无限责任
+- 赔偿义务是否过宽
+- 是否缺少赔偿上限
+- 违约金是否明显单方、不对等
 
-Suggested direction:
-- add liability caps, carve-outs, and reciprocal responsibility where appropriate
+建议方向：
+- 结合交易性质设置责任上限、例外条款、对等责任安排
 
-### 3. Term and termination
-Watch for:
-- unilateral termination rights without trigger standards
-- harsh penalties for ordinary termination
-- auto-renewal without reminder or opt-out mechanism
+### 3. 期限与解除
+重点看：
+- 是否允许一方随意单方解除
+- 普通解除是否伴随过重处罚
+- 自动续约是否缺乏提醒或退出机制
 
-Suggested direction:
-- define clear termination triggers, notice periods, and post-termination duties
+建议方向：
+- 明确解除触发条件、通知期限、解除后的交接义务
 
-### 4. Intellectual property and deliverables
-Watch for:
-- all IP assigned without scope or payment linkage
-- deliverables not defined
-- no license back or usage scope
+### 4. 知识产权与交付成果
+重点看：
+- 是否无条件转让全部知识产权
+- 交付成果定义是否不清晰
+- 是否缺少授权范围或回授安排
 
-Suggested direction:
-- define ownership, usage rights, source materials, and deliverable standards clearly
+建议方向：
+- 明确所有权、使用权、源材料归属、交付标准
 
-### 5. Confidentiality and data
-Watch for:
-- confidentiality obligations lasting forever without limit
-- confidential information not defined
-- personal-data handling obligations missing
+### 5. 保密与数据
+重点看：
+- 保密义务是否无限期且无边界
+- 保密信息定义是否不清晰
+- 是否缺少个人信息或数据处理义务
 
-Suggested direction:
-- define scope, exclusions, duration, and return/deletion duties
+建议方向：
+- 明确保密范围、例外情形、保密期限、返还 / 删除义务
 
-### 6. Dispute resolution
-Watch for:
-- court venue only favorable to one side
-- arbitration clause unclear or incomplete
-- governing law and jurisdiction inconsistent
+### 6. 争议解决
+重点看：
+- 管辖法院是否明显只利于一方
+- 仲裁条款是否表述不完整
+- 适用法律与争议解决条款是否互相冲突
 
-Suggested direction:
-- align governing law, forum, and procedure language
+建议方向：
+- 统一适用法律、管辖、程序安排，避免互相打架
 
-## Quick Output Template
+## 快速输出模板
 
-| Clause / Topic | Severity | Why it matters | Suggested revision direction |
+| 条款 / 主题 | 风险级别 | 问题说明 | 修改方向 |
 |---|---|---|---|
-| Payment terms | High | Payment can be delayed indefinitely | Add acceptance deadline + deemed acceptance + fixed payment date |
+| 付款条款 | 高 | 付款可能被无限期拖延 | 增加验收期限、视为验收和明确付款日 |
 
-## Reminder
+## 提醒
 
-A first-pass review should identify visible risk patterns, not promise enforceability or litigation outcomes. Complex commercial contracts should be escalated to lawyer review.
+第一轮合同审查的目标，是识别可见风险模式，不是承诺合同一定有效、一定可执行或一定能胜诉。复杂商业合同应升级到律师审核。

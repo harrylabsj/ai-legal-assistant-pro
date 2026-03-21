@@ -1,70 +1,70 @@
-# Calculation Formulas
+# 计算规则
 
-Use this file for rough, transparent estimation. Show the facts used, the formula applied, and the uncertainty.
+本文件用于提供粗略且透明的第一轮估算。输出时要同时说明：使用了哪些事实、采用了什么公式、存在哪些不确定性。
 
-## 1. PRC Civil Lawsuit Filing Fee (Common Property Disputes)
+## 1. 中国民事案件诉讼费（常见财产案件）
 
-Apply the progressive schedule below.
+按下表的递进规则估算：
 
-| Claim amount | Rule |
+| 标的额 | 规则 |
 |---|---|
-| <= 10,000 RMB | 50 RMB |
-| 10,001 - 100,000 RMB | amount × 2.5% - 200 |
-| 100,001 - 200,000 RMB | amount × 2% + 300 |
-| 200,001 - 500,000 RMB | amount × 1.5% + 1,300 |
-| 500,001 - 1,000,000 RMB | amount × 1% + 3,800 |
-| 1,000,001 - 2,000,000 RMB | amount × 0.9% + 4,800 |
-| 2,000,001 - 5,000,000 RMB | amount × 0.8% + 6,800 |
-| 5,000,001 - 10,000,000 RMB | amount × 0.7% + 11,800 |
-| 10,000,001 - 20,000,000 RMB | amount × 0.6% + 21,800 |
-| > 20,000,000 RMB | amount × 0.5% + 41,800 |
+| <= 10,000 元 | 50 元 |
+| 10,001 - 100,000 元 | 标的额 × 2.5% - 200 |
+| 100,001 - 200,000 元 | 标的额 × 2% + 300 |
+| 200,001 - 500,000 元 | 标的额 × 1.5% + 1,300 |
+| 500,001 - 1,000,000 元 | 标的额 × 1% + 3,800 |
+| 1,000,001 - 2,000,000 元 | 标的额 × 0.9% + 4,800 |
+| 2,000,001 - 5,000,000 元 | 标的额 × 0.8% + 6,800 |
+| 5,000,001 - 10,000,000 元 | 标的额 × 0.7% + 11,800 |
+| 10,000,001 - 20,000,000 元 | 标的额 × 0.6% + 21,800 |
+| > 20,000,000 元 | 标的额 × 0.5% + 41,800 |
 
-### Output pattern
-- Claim amount
-- Formula used
-- Estimated filing fee
-- Notes: does not include lawyer fees, preservation fees, travel, expert fees, etc.
+### 建议输出格式
+- 标的额
+- 使用的公式
+- 预估诉讼费
+- 说明：不含律师费、保全费、差旅费、鉴定费等其他成本
 
-## 2. Labor Economic Compensation (High-Level)
+## 2. 劳动经济补偿（高层级估算）
 
-Use only as a rough first-pass estimate.
+仅用于第一轮粗估。
 
-### Common simplified approach
-- Economic compensation often uses **N** based on years of service
-- Unlawful termination may involve **2N** in some common scenarios
-- Some lawful termination scenarios may involve **N+1** or other local/practical handling depending on facts
+### 常见简化思路
+- 经济补偿通常会围绕 **N**（工作年限）展开
+- 违法解除在常见场景下可能涉及 **2N**
+- 某些合法解除场景下，可能涉及 **N+1** 或结合具体事实、地方做法判断
 
-### Minimum facts to gather
-- monthly wage base
-- years of service
-- termination date
-- stated termination reason
-- whether notice was given
-- whether a written labor contract exists
+### 至少要收集的事实
+- 月工资基数
+- 工作年限
+- 解除日期
+- 单位主张的解除原因
+- 是否提前通知
+- 是否签订书面劳动合同
 
-### Safe output rule
-Do **not** state a final compensation number unless the factual basis is reasonably clear. If facts are incomplete, give a range or a scenario table.
+### 安全输出规则
+如果事实不清，不要直接报一个“确定赔偿数”。优先给区间，或给条件分支表。
 
-### Scenario table pattern
-| Scenario | Basis | Estimated result |
+### 场景表模板
+| 场景 | 依据 | 预估结果 |
 |---|---|---|
-| If lawful economic layoff | N or N+1 logic | X - Y RMB |
-| If unlawful termination | 2N logic may apply | A - B RMB |
+| 若属于合法经济性裁员 | N 或 N+1 逻辑 | X - Y 元 |
+| 若属于违法解除 | 2N 逻辑可能适用 | A - B 元 |
 
-## 3. Worth-Pursuing Check
+## 3. 值不值得起诉的初筛
 
-When the user asks whether a case is worth filing, compare:
-- estimated claim value
-- estimated filing fee
-- likely lawyer / time / evidence cost
-- urgency and recoverability
+当用户问“值不值得起诉”时，至少要比较：
+- 潜在主张金额
+- 预估诉讼费
+- 可能的律师 / 时间 / 举证成本
+- 紧迫性与回收可能性
 
-### Output pattern
-- Potential upside
-- Estimated direct procedural cost
-- Main uncertainty
-- Preliminary recommendation: pursue / negotiate first / gather evidence first
+### 建议输出格式
+- 潜在收益
+- 预计直接程序成本
+- 最大不确定性
+- 初步建议：起诉 / 先谈判 / 先补证据
 
-## Reminder
+## 提醒
 
-Always mention that local court practice, latest rules, and factual detail can materially change the result.
+必须提醒用户：当地法院做法、最新规则、证据情况和事实细节，都可能显著影响最终结果。

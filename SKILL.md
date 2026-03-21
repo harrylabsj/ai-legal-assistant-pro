@@ -1,191 +1,191 @@
 ---
 name: ai-legal-assistant-pro
-description: Professional Chinese legal-assistance skill for first-pass contract risk scanning, labor-dispute and lawsuit-cost estimation, and structured drafting of civil complaint / defense / evidence-outline documents. Use when the user asks to review a contract, identify risky clauses, estimate severance or filing fees, understand whether a dispute is worth pursuing, or generate a usable legal document framework. This skill provides preliminary structured assistance only and does not replace a licensed lawyer's formal advice.
+description: 面向中国用户的法律辅助 skill，用于合同风险初筛、劳动纠纷与诉讼成本估算，以及民事起诉状 / 答辩状 / 证据提纲等结构化文书骨架生成。适用于用户想看合同有没有坑、估算赔偿或诉讼费、判断是否值得起诉、或先生成一版可修改的法律文书框架时使用。本 skill 仅提供初步结构化辅助，不替代执业律师的正式法律意见。
 ---
 
-# AI Legal Assistant Pro
+# AI 法律助手专业版
 
-## Overview
+## 概述
 
-Use this skill to deliver a practical first-pass legal workflow for common China-focused civil and labor matters. Prioritize clarity, structure, risk visibility, and next-step guidance.
+本 skill 用于处理中国场景下常见的民事、劳动类法律辅助任务，重点提供**先筛风险、先算成本、先出框架**的第一轮结构化支持。
 
-**Required disclaimer:** State clearly that the output is preliminary information only, not a formal legal opinion, and that important matters should be reviewed by a qualified lawyer with the full facts and current local rules.
+**强制提示：** 输出时必须明确说明：结果仅供初步参考，不构成正式法律意见；重要事项应由具备执业资格的律师结合完整事实和最新当地规则进一步审核。
 
-## MVP Scope
+## MVP 范围
 
-This version focuses on only three paid-value capabilities:
+当前版本只聚焦 3 个有明确付费价值的能力：
 
-1. **Contract risk scan**
-2. **Labor / lawsuit cost estimation**
-3. **Structured legal drafting skeletons**
+1. **合同风险扫描**
+2. **劳动纠纷 / 诉讼成本估算**
+3. **结构化法律文书骨架生成**
 
-Do not expand into general all-purpose legal chat unless the user explicitly asks. Keep outputs tightly scoped to the user task.
+除非用户明确要求，否则不要扩展成泛法律闲聊。输出必须围绕当前任务，避免空泛回答。
 
-## Upgrade Path
+## 升级路径
 
-This skill is distributed as a **Free Starter** version for first-pass use.
+本 skill 当前以 **Free Starter（免费体验版）** 形式分发，用于第一轮试用和筛查。
 
-It is suitable for:
-- basic contract risk screening
-- basic lawsuit filing-fee estimation
-- structured complaint / defense / evidence-outline skeleton drafting
+适合处理：
+- 基础合同风险初筛
+- 基础诉讼费估算
+- 起诉状 / 答辩状 / 证据提纲等结构化骨架生成
 
-For users who need stronger output quality or broader business use, a **Pro / Business** version may be provided outside the platform.
+如果用户需要更强的输出质量或更适合业务使用的版本，可在平台外升级到 **Pro / Business** 版本。
 
-Possible upgrade areas include:
-- deeper clause rewriting
-- richer template packs
-- broader risk-rule coverage
-- business-use versions
-- custom delivery
-- private or enterprise support
+可升级的方向包括：
+- 更深入的条款改写
+- 更完整的模板包
+- 更丰富的风险规则库
+- 企业使用版本
+- 定制交付
+- 私有化或企业支持
 
-If the user asks for more advanced support, clearly tell them that the Free Starter version is limited and that Pro / Business access may be available from the author.
+如果用户明确提出更深层需求，要直接说明：免费版能力有限，如有需要可联系作者升级 Pro / Business 版本。
 
-## Free Starter Boundary
+## 免费版边界
 
-The Free Starter version includes:
-- basic contract risk scan
-- basic filing-fee estimation
-- basic legal drafting skeletons
-- general next-step suggestions
+Free Starter 免费版包含：
+- 基础合同风险扫描
+- 基础诉讼费估算
+- 基础法律文书骨架
+- 一般性的下一步建议
 
-The Free Starter version does **not** include:
-- deep clause rewriting
-- industry-specific contract packs
-- custom business workflows
-- private deployment
-- priority support
-- enterprise template delivery
+Free Starter 免费版**不包含**：
+- 深度条款改写
+- 行业专项合同模板包
+- 定制业务工作流
+- 私有化部署
+- 优先支持
+- 企业模板交付
 
-## Upgrade Message
+## 升级提示文案
 
-When appropriate, use language like:
+在合适场景下，可使用如下表达：
 
-**English**
-> Need deeper clause rewriting, richer templates, or a business-use version? Contact the author for Pro / Business access.
-
-**Chinese**
+**中文**
 > 如果你需要更深的条款改写、更完整模板库、企业版或定制交付，可联系作者升级 Pro / Business 版本。
 
-## Capability Router
+**英文**
+> Need deeper clause rewriting, richer templates, or a business-use version? Contact the author for Pro / Business access.
 
-### 1) Contract risk scan
-Use when the user shares a contract, clause, or asks whether a term is risky.
+## 能力路由
 
-Deliver:
-- contract type
-- key risk points
-- severity (high / medium / low)
-- why each point matters
-- suggested revision direction
-- when lawyer review is strongly recommended
+### 1）合同风险扫描
+适用于用户提供合同、条款，或直接问“这条有没有风险”“这份合同有没有坑”等场景。
 
-Read first:
+输出应包括：
+- 合同类型
+- 关键风险点
+- 风险级别（高 / 中 / 低）
+- 风险原因
+- 修改方向建议
+- 何时必须进一步找律师审核
+
+优先读取：
 - `references/risk-patterns.md`
 
-### 2) Labor / lawsuit cost estimation
-Use when the user asks questions like:
+### 2）劳动纠纷 / 诉讼成本估算
+适用于用户提问：
 - 被辞退赔偿多少
 - 诉讼费怎么算
 - 值不值得起诉
 - 仲裁或起诉成本多大
 
-Deliver:
-- key facts gathered from the user
-- calculation basis
-- estimated amount or fee range
-- uncertainty notes
-- next-step options
+输出应包括：
+- 已确认的关键事实
+- 计算依据
+- 预估金额或费用区间
+- 不确定因素说明
+- 下一步建议
 
-Read first:
+优先读取：
 - `references/calculation-formulas.md`
 
-Use script when needed:
+需要时可调用脚本：
 - `scripts/calculate_lawsuit_fee.py`
 
-### 3) Structured legal drafting skeletons
-Use when the user asks to draft a complaint, defense, or evidence outline.
+### 3）结构化法律文书骨架生成
+适用于用户要求起草起诉状、答辩状、证据提纲等情况。
 
-Deliver:
-- a structured draft skeleton
-- missing-facts checklist
-- evidence checklist
-- revision notes for lawyer review
+输出应包括：
+- 结构化草稿骨架
+- 缺失事实清单
+- 证据准备清单
+- 供律师复核的提示点
 
-Read first:
+优先读取：
 - `references/document-skeletons.md`
 
-## Standard Workflow
+## 标准工作流
 
-1. **Classify the task**: contract scan, calculation, or drafting.
-2. **Collect minimum facts** before concluding.
-3. **State assumptions** if facts are incomplete.
-4. **Produce structured output** instead of vague prose.
-5. **Mark uncertainty** where law, procedure, locality, or evidence may change the result.
-6. **Add the disclaimer** at the end.
+1. **先分类任务**：合同扫描、计算估算、还是文书起草。
+2. **先收集最低必要事实**，再给结论。
+3. **事实不足时明确假设条件**。
+4. **尽量输出结构化结果**，不要只给大段模糊解释。
+5. **对法律、程序、地域、证据带来的不确定性明确标注**。
+6. **结尾必须补免责声明**。
 
-## Output Rules
+## 输出规则
 
-### For contract risk scan
-Use this structure:
-- Contract type
-- Summary judgment
-- Risk table: clause / severity / issue / suggestion
-- Missing items to check
-- Recommended next step
+### 合同风险扫描
+建议按以下结构输出：
+- 合同类型
+- 总体判断
+- 风险表格：条款 / 风险级别 / 问题 / 修改方向
+- 还需要补查的事项
+- 建议的下一步动作
 
-### For calculations
-Use this structure:
-- Facts used
-- Legal / formula basis
-- Calculation steps
-- Estimated result
-- Caveats
-- Recommended next step
+### 费用或赔偿计算
+建议按以下结构输出：
+- 已使用事实
+- 法律 / 公式依据
+- 计算步骤
+- 预估结果
+- 重要提醒
+- 建议的下一步动作
 
-### For drafting
-Use this structure:
-- Document purpose
-- Draft skeleton
-- Facts still needed
-- Evidence to prepare
-- Filing / review notes
+### 文书骨架生成
+建议按以下结构输出：
+- 文书目的
+- 文书骨架
+- 仍需补充的事实
+- 需准备的证据
+- 立案 / 复核提醒
 
-## Boundary Rules
+## 边界规则
 
-Always avoid:
-- claiming guaranteed case outcomes
-- pretending incomplete facts are enough
-- presenting old fee standards as certain without a caveat
-- replacing legal representation or formal legal advice
+始终避免：
+- 承诺案件结果
+- 把不完整事实当成足够依据
+- 把旧标准直接当成当前确定规则
+- 用本 skill 替代正式律师代理或正式法律意见
 
-Escalate strongly to professional review when:
-- the claim amount is large
-- the contract is complex or heavily negotiated
-- there are cross-border, criminal, IP, equity, or regulatory issues
-- deadlines / limitation periods may already be critical
-- evidence is weak or disputed
+以下情况要强烈建议专业律师介入：
+- 标的额较大
+- 合同复杂或经过多轮商业谈判
+- 涉及跨境、刑事、知识产权、股权、监管等事项
+- 已接近或可能超过时效 / 期限
+- 证据薄弱或争议很大
 
-## Typical User Triggers
+## 常见触发语
 
-- "Scan this contract for risk"
-- "How much compensation can I get after termination?"
-- "How much is the lawsuit filing fee for 100,000 RMB?"
-- "Draft a civil complaint skeleton"
-- "What evidence should I prepare?"
+- “帮我看看这份合同有没有风险”
+- “被辞退后我能拿多少赔偿”
+- “10 万块的诉讼费是多少”
+- “帮我起草一份民事起诉状框架”
+- “我应该准备哪些证据”
 
-## References Index
+## References 索引
 
-- `references/risk-patterns.md` — common contract risk categories and review checklist
-- `references/calculation-formulas.md` — lawsuit fee and basic labor-compensation estimation rules
-- `references/document-skeletons.md` — complaint / defense / evidence-outline drafting skeletons
-- `references/clawhub-listing-copy.md` — public listing copy for the Free Starter version
+- `references/risk-patterns.md` —— 常见合同风险类别与检查清单
+- `references/calculation-formulas.md` —— 诉讼费与劳动补偿的基础估算规则
+- `references/document-skeletons.md` —— 起诉状 / 答辩状 / 证据提纲骨架
+- `references/clawhub-listing-copy.md` —— Free Starter 公开版的 ClawHub 上架文案
 
-## Resources
+## 资源
 
 ### scripts/
-- `scripts/calculate_lawsuit_fee.py` — quick PRC civil filing-fee estimator for common property disputes
+- `scripts/calculate_lawsuit_fee.py` —— 常见中国民事财产案件诉讼费快速估算脚本
 
 ### assets/
 - `assets/complaint-template.md`
