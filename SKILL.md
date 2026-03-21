@@ -178,6 +178,7 @@ Free Starter 免费版**不包含**：
 ## References 索引
 
 - `references/risk-patterns.md` —— 常见合同风险类别与检查清单
+- `references/contract-type-guides.md` —— 按合同类型整理的高频风险提示
 - `references/risk-scan-examples.md` —— 首批合同风险扫描样例
 - `references/calculation-formulas.md` —— 诉讼费与劳动补偿的基础估算规则
 - `references/document-skeletons.md` —— 起诉状 / 答辩状 / 证据提纲骨架
