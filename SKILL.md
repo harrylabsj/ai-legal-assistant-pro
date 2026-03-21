@@ -180,6 +180,7 @@ Escalate strongly to professional review when:
 - `references/risk-patterns.md` — common contract risk categories and review checklist
 - `references/calculation-formulas.md` — lawsuit fee and basic labor-compensation estimation rules
 - `references/document-skeletons.md` — complaint / defense / evidence-outline drafting skeletons
+- `references/clawhub-listing-copy.md` — public listing copy for the Free Starter version
 
 ## Resources
 
