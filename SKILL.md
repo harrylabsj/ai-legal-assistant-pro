@@ -100,6 +100,7 @@ Free Starter 免费版**不包含**：
 
 优先读取：
 - `references/calculation-formulas.md`
+- `references/labor-dispute-scenarios.md`
 
 需要时可调用脚本：
 - `scripts/calculate_lawsuit_fee.py`
@@ -192,4 +193,6 @@ Free Starter 免费版**不包含**：
 
 ### assets/
 - `assets/complaint-template.md`
+- `assets/defense-template.md`
+s/complaint-template.md`
 - `assets/defense-template.md`
