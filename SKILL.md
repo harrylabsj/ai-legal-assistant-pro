@@ -101,6 +101,8 @@ Free Starter 免费版**不包含**：
 优先读取：
 - `references/calculation-formulas.md`
 - `references/labor-dispute-scenarios.md`
+- `references/labor-compensation-output-template.md`
+- `references/litigation-worth-it-template.md`
 
 需要时可调用脚本：
 - `scripts/calculate_lawsuit_fee.py`
@@ -182,6 +184,9 @@ Free Starter 免费版**不包含**：
 - `references/contract-type-guides.md` —— 按合同类型整理的高频风险提示
 - `references/risk-scan-examples.md` —— 首批合同风险扫描样例
 - `references/calculation-formulas.md` —— 诉讼费与劳动补偿的基础估算规则
+- `references/labor-dispute-scenarios.md` —— 劳动纠纷与补偿估算的高频情景规则
+- `references/labor-compensation-output-template.md` —— 被辞退赔偿等场景的区间输出模板
+- `references/litigation-worth-it-template.md` —— “值不值得起诉”的结构化判断模板
 - `references/document-skeletons.md` —— 起诉状 / 答辩状 / 证据提纲骨架
 - `references/test-cases.md` —— 当前 MVP 的首批测试样例
 - `references/output-acceptance-criteria.md` —— 首批测试样例的输出验收标准
