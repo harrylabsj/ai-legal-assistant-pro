@@ -1,8 +1,7 @@
 ---
 name: ai-legal-assistant-pro
-description: 面向中国用户的法律辅助 skill，用于合同风险初筛、劳动纠纷与诉讼成本估算，以及民事起诉状 / 答辩状 / 证据提纲等结构化文书骨架生成。适用于用户想看合同有没有坑、估算赔偿或诉讼费、判断是否值得起诉、或先生成一版可修改的法律文书框架时使用。本 skill 仅提供初步结构化辅助，不替代执业律师的正式法律意见。
+description: "China legal triage assistant. Input a contract, labor dispute facts, lawsuit-cost question, or draft legal document need; output risk checklist, cost estimate, evidence outline, or editable document skeleton. Boundary: preliminary legal information only, not a lawyer and not formal legal advice."
 ---
-
 # AI 法律助手专业版
 
 ## 概述
@@ -206,3 +205,8 @@ Free Starter 免费版**不包含**：
 - `assets/defense-template.md`
 s/complaint-template.md`
 - `assets/defense-template.md`
+
+
+## P1 Legal Boundary
+
+This skill provides preliminary legal information, risk spotting, and document structure only. It is not a lawyer, does not create an attorney-client relationship, and does not replace formal advice from a qualified lawyer who has reviewed the full facts and current local rules.
