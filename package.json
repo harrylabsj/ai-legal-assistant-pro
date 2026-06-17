@@ -3,7 +3,6 @@
   "version": "1.1.0",
   "description": "China legal triage assistant. Input a contract, labor dispute facts, lawsuit-cost question, or draft legal document need; output risk checklist, cost estimate, evidence outline, or editable document skeleton. Boundary: preliminary legal information only, not a lawyer and not formal legal advice.",
   "keywords": [
-    "openclaw",
     "skill",
     "legal",
     "contract",
@@ -11,17 +10,5 @@
     "labor"
   ],
   "author": "jianghaidong",
-  "license": "MIT",
-  "openclaw": {
-    "skill": true,
-    "category": "legal",
-    "triggers": [
-      "合同风险",
-      "合同审查",
-      "诉讼费",
-      "被辞退赔偿",
-      "起诉状",
-      "答辩状"
-    ]
-  }
+  "license": "MIT"
 }
