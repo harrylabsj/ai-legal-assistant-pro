@@ -1,6 +1,6 @@
 {
   "name": "ai-legal-assistant-pro",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "China legal triage assistant. Input a contract, labor dispute facts, lawsuit-cost question, or draft legal document need; output risk checklist, cost estimate, evidence outline, or editable document skeleton. Boundary: preliminary legal information only, not a lawyer and not formal legal advice.",
   "keywords": [
     "skill",
